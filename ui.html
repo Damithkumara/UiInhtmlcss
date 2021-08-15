@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple UI Design</title>
+</head>
+<style>
+    body
+    {
+        background-image: url("img/1304084.png");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .mainboder
+    {
+        position: absolute;
+        border-radius: 10px;
+        top: 5%;
+        left: 20%;
+        padding: 10px;
+        box-shadow: 2px 4px 15px 4px rgb(89, 92, 89);
+        width: 320px;
+        height: 600px;
+        background-image: url("img/maxresdefault.jpg");
+    }
+    .settimepos
+    {
+        font-size: 55px;
+        font-weight: bold;
+        text-align: center;
+        padding-bottom: 100px;
+    }
+    .setdatepos
+    {
+        text-align: center;
+        top: 200px;
+        margin: -150px;
+    }
+    .centerborder
+    {
+        position: absolute;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: rgba(190, 187, 187, 0.322);
+        box-shadow: none;
+        width: 300px;
+        height: 130px;
+        top: 30%;
+    }
+    .setimgsize
+    {
+        width: 35px;
+        height: 35px;
+        padding: -10px;
+    }
+    td
+    {
+        width: 5%;
+        height: 120px;
+    }
+    figcaption
+    {
+        font-size: 10px;
+        text-align: center;
+    }
+    figure
+    {
+        margin-left: 6%;
+    }
+    .bottomborder
+    {
+        position: absolute;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: rgba(190, 187, 187, 0.322);
+        box-shadow: none;
+        width: 300px;
+        height: 170px;
+        top: 58%;
+    }
+    .setlocation
+    {
+        padding: 8px;
+    }
+    .setdot
+    {
+        font-size: larger;
+        font-weight: bolder;
+        padding-left: 270px;
+        margin-top: -70px;
+        color: aliceblue;
+    }
+    .setsels
+    {
+        font-size: 50px;
+        margin-top: -42px;
+        margin-left: 30px;
+    }
+    .settopupper
+    {
+        padding: -10px;
+        margin-top: -42px;
+    }
+    .setpostoup
+    {
+        padding: -1px;
+        margin: -1px;
+    }
+    .setimgposnow
+    {
+        padding-left: 150px;
+        margin-top: -130px;
+    }
+    .stsize
+    {
+        width: 100px;
+        height: 100px;
+    }
+    .footer
+    {
+        padding-top: 520px;
+        padding-left: 15px;
+        margin-left: 25px;
+    }
+    .imsize
+    {
+        width: 25px;
+        height: 25px;
+        padding-left: 10px;
+        position: relative;
+    }
+    .footer:hover
+    {
+        color: aliceblue;
+    }
+    .get0toposition
+    {
+   
+       
+      
+    }
+    .getup0
+    {
+        font-size: 10px;
+    }
+</style>
+<body>
+    <div class="mainboder">
+        <p class="settimepos">19:45</p>
+        <p class="setdatepos">Thrusday | Sep 21</p>
+        <div class="centerborder">
+            <div class="settable">
+                <table>
+                    <td>
+                        <figure>
+                            <figcaption>MON 18</figcaption>
+                            <img class="setimgsize" src="img/sun.png" alt="">
+                            <figcaption>26'/29'</figcaption>
+                            <figcaption>15% Rain</figcaption>
+                        </figure>
+                    </td>
+                    <td>
+                        <figure>
+                            <figcaption>TUE 19</figcaption>
+                            <img class="setimgsize" src="img/cloudy (1).png" alt="">
+                            <figcaption>28'/30'</figcaption>
+                            <figcaption>1% Rain</figcaption>
+                        </figure>     
+                    </td>
+                    <td>
+                        <figure>
+                            <figcaption>WED 20</figcaption>
+                            <img class="setimgsize" src="img/cloudy (2).png" alt="">
+                            <figcaption>20'/26'</figcaption>
+                            <figcaption>89% Rain</figcaption>
+                        </figure>
+                    </td>
+                    <td>
+                        <figure>
+                            <figcaption>THU 21</figcaption>
+                            <img class="setimgsize" src="img/sun.png" alt="">
+                            <figcaption>25'/29'</figcaption>
+                            <figcaption>17% Rain</figcaption>
+                        </figure>
+                    </td>
+                </table>
+            </div>
+        </div>
+        <div class="bottomborder">
+            <div class="setlocation">
+                <p>Barcelona, Spain</p>
+            </div>
+            <div class="setdot">
+                <p>...</p>
+            </div>
+            <div class="setsels">
+                <p>24<sup class="get0toposition" ><class style="font-size: 10px; padding-top: 50px;">0</class></sup></p>
+            </div>
+            <div class="settopupper">
+                <p class="setpostoup">Sunny</p>
+                <p class="setpostoup">Chance of Rain 7%</p>
+                <p class="setpostoup">Humity</p>
+            </div>
+            <div class="setimgposnow">
+                <img class="stsize" src="img/cloudy.png" alt="">
+            </div>
+        </div>
+        <div class="footer">
+            <table>
+                <td>
+                    <figure>
+                        <img class="imsize" src="img/weather.png" alt="">
+                        <figcaption>Weather</figcaption>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img class="imsize" src="img/location.png" alt="">
+                        <figcaption>Location</figcaption>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img class="imsize" src="img/settings.png" alt="">
+                        <figcaption>Settings</figcaption>
+                    </figure>
+                </td>
+            </table>
+        </div>
+    </div>    
+</body>
+</html>
